@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+	<language id="matthew.jQuery">
+		
+		<root-zone>language-root.js</root-zone>
+		<name>jQuery</name>
+		<detectors>
+			<extension>js</extension>
+		</detectors>
+		
+	</language>
+	
+	
+</settings>

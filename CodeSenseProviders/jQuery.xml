@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense>
+	
+	<!--Properties and Methods-->
+	<provider>
+		<selector>js, js *:not(string,string *,comment)</selector>
+		<completions>com.matthew.js.jQuery.methods</completions>
+		<complete-match capture="1">\.([a-zA-Z][a-zA-Z ]*)</complete-match>
+	</provider>
+		
+</codesense>
