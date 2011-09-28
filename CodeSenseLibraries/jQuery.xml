@@ -142,7 +142,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:name}${2:, ${3:switch}})</transform-into>
+				<transform-into>('${1:name}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -152,7 +152,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:val})</transform-into>
+				<transform-into>(${2:'${1:html}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -162,7 +162,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:val})</transform-into>
+				<transform-into>(${2:'${1:val}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -227,7 +227,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>(${2:'${1:expr}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -236,7 +236,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>('${1:expr}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -254,7 +254,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>('${1:expr}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -263,7 +263,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>(${2:'${1:el}'})</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -272,7 +272,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>(${2:'${1:el}'})</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -290,7 +290,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>('${1:el}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -299,7 +299,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>(${2:'${1:el}'})</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -308,7 +308,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>(${2:'${1:el}'})</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
@@ -317,7 +317,7 @@
 		<behavior>
 			<append-dynamic>
 			    <matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>(${1:expr})</transform-into>
+				<transform-into>('${1:expr}')</transform-into>
 			</append-dynamic>
 		</behavior>
 	</completion>
